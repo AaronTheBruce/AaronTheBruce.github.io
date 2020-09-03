@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
+title: Aaron Bruce
+email: aaronbruce555@gmail.com
+description: Trained by App Academy and self-taught software developer with experience working on Full Stack Apps in Javascript, React, Node, Express, postgreSQL, & MongoDB
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://aaronthebruce.github.io/" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+# twitter_username:
+github_username: AaronTheBruce
 
 # Build settings
 markdown: kramdown
