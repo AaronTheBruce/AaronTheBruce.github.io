@@ -5,7 +5,7 @@ description: Trained by App Academy and self-taught software developer with expe
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://aaronthebruce.github.io/" # the base hostname & protocol for your site
 
-# twitter_username:
+linkedin_username: aaronbruce555
 github_username: AaronTheBruce
 
 # Build settings
