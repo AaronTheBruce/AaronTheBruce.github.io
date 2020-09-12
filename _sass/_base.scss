@@ -288,6 +288,12 @@ header {
     color: $theme-dark ;
 }
 
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;

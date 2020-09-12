@@ -23,11 +23,23 @@
                 <!-- <a href="#" class="btn btn-default btn-xl">Get Started!</a> -->
             </div>
             <div class="col-lg-3 text-center">
-                <span>
+                <span class="profile-pic">
                     <img src="../img/portfolio/aaron-bruce-pic.jpg" alt="profile-pic">
                 </span>
                 <div style="margin-top: 10px;">
-                    <a class="profile-link" href="../img/portfolio/Aaron_Bruce_Resume.pdf" alt="resume pdf">Resume</a>
+                    <a class="profile-link fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s" href="mailto:{{ site.email }}"></a>
+                </div>
+                <div>
+                    <a class="profile-link fa fa-linkedin fa-3x wow bounceIn" data-wow-delay=".1s" href="https://linkedin.com/in/{{ site.linkedin_username }}"> /LinkedIn</a>
+                </div>
+                <div>
+                    <a class="profile-link fa fa-angellist fa-3x wow bounceIn" data-wow-delay=".1s" href="https://angel.co/u/{{ site.angel_username }}"> /AngelList</a>
+                </div>
+                <div>
+                    <a class="profile-link fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s" href="https://github.com/{{ site.github_username }}"> /GitHub</a>
+                </div>
+                <div>
+                    <a class="profile-link fa fa-file-pdf fa-3x wow bounceIn" data-wow-delay=".1s" href="../img/portfolio/Aaron_Bruce_Resume.pdf"></a> /Resume</a>
                 </div>
             </div>
         </div>
