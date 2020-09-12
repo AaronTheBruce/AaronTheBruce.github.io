@@ -287,8 +287,19 @@ header {
 .profile-link {
     display: flex;
     color: $theme-dark ;
-    justify-self: flex-start;
     margin-top: 5px;
+}
+
+@media(max-width: 1199px){
+    .profile-link {
+        justify-self: center;
+    }
+}
+
+@media(min-width: 1200px){
+    .profile-link {
+        justify-self: flex-start;
+    }
 }
 
 .profile-pic {
