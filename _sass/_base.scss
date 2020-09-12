@@ -290,10 +290,16 @@ header {
     margin-top: 5px;
 }
 
-@media(max-width: 1199px){
+@media(max-width: 1199px) and (min-width: 401px){
     .profile-link {
         justify-content: center;
         font-size: 24px;
+    }
+}
+
+@media(max-width: 400px){
+    .profile-link {
+        font-size: 18px;
     }
 }
 
