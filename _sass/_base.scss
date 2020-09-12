@@ -285,7 +285,10 @@ header {
 }
 
 .profile-link {
+    display: flex;
     color: $theme-dark ;
+    justify-self: flex-start;
+    margin-left: 45px;
 }
 
 .profile-pic {
