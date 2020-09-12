@@ -293,12 +293,14 @@ header {
 @media(max-width: 1199px){
     .profile-link {
         justify-content: center;
+        font-size: 24px;
     }
 }
 
 @media(min-width: 1200px){
     .profile-link {
         justify-content: flex-start;
+        font-size: 18px;
     }
 }
 
